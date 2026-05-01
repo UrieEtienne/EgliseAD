@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "EgliseAD",
+    "slug": "EgliseAD",
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.EgliseAD",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Cette application utilise votre position pour localiser les églises."
+      }
+    },
+
+    "android": {
+      "package": "com.anonymous.EgliseAD",
+      "permissions": ["ACCESS_FINE_LOCATION"],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      }
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
